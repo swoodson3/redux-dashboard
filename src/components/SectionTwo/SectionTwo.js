@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Grid } from 'material-ui';
 import Input, { InputLabel } from 'material-ui/Input';
+import {CheckBox} from '@material-ui/icons'
 // THIS COMPONENT IS OUR INTERFACE FOR PASSENGER CHECK IN
 // YOU SHOULD DISPLAY THE CURRENT PASSENGERS
 // INPUT SHOULD COLLECT INFO, BUTTON SHOULD ADD THEM TO THE LIST
@@ -10,7 +11,7 @@ class SectionTwo extends Component {
     return (
       <div>
         <Grid container justify="center" spacing={16}>
-          <Grid item  >
+          <Grid item>
             <InputLabel>Name:</InputLabel>
             <Input />
           </Grid>
@@ -19,7 +20,8 @@ class SectionTwo extends Component {
               variant="raised"
               color="primary"
               className="button-margin">
-              Check In!
+              Check In!&nbsp;
+              <CheckBox />
           </Button>
           </Grid>
         </Grid>

@@ -11,32 +11,19 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Grid container spacing={16} justify="center">
-
           <div className="App">
-
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" />
               <img src={reduxLogo} className="App-logo" alt="logo" />
-
               <h1 className="App-title">Welcome to React Redux</h1>
               
-                <Link to="/"><Button>Section One</Button></Link>
-              <Button>
-                <Link to="/2">Section Two</Link>
-              </Button>
-
-              <Button>
-                <Link to="/3">Section Three</Link>
-              </Button>
-
-              <Button>
-                <Link to="/4">Section Four</Link>
-              </Button>
+                <Link to="/"><Button variant="raised">Section One</Button></Link>
+                <Link to="/2"><Button variant="raised">Section Two</Button></Link>
+                <Link to="/3"><Button variant="raised">Section Three</Button></Link>
+              
             </header>
             <View />
           </div>
-        </Grid>
       </Router>
     );
   }

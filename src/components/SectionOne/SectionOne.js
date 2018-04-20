@@ -15,7 +15,7 @@ class SectionOne extends Component {
             variant="raised"
             color="primary"
             className="button-margin">
-            Increase Speed!
+            Increase Speed!&nbsp;
             <ArrowUpward />
           </Button>
         </Grid>
@@ -27,7 +27,7 @@ class SectionOne extends Component {
             variant="raised"
             color="secondary"
             className="button-margin">
-            Decrease Speed!
+            Decrease Speed!&nbsp;
             <ArrowDownward />
           </Button>
         </Grid>
