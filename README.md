@@ -5,7 +5,7 @@ Congrats on making it to your seventh and final code challenge!
 ## INSTRUCTIONS
 Fork this repository and clone it to your computer. Run `npm install` and `npm start`.
 
-There are 3 views. Each view needs to be hooked up to redux, with actions and reducers being defined by you. Your reducers (you will need multiple) should all live in the `buttonsReducer,js` file. Don't forget to combine them!
+There are 3 views. Each view needs to be hooked up to redux, with actions and reducers being defined by you. Your reducers (you will need multiple) should all live in the `buttonsReducer.js` file. Don't forget to combine them!
 
 Fulfill the requirements below:
 
