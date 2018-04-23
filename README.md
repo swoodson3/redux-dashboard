@@ -3,7 +3,7 @@
 Congrats on making it to your seventh and final code challenge!
 
 ## INSTRUCTIONS
-`npm install` and `npm start`
+Fork this repository and clone it to your computer. Run `npm install` and `npm start`.
 
 There are 3 views. Each view needs to be hooked up to redux with actions and reducers. Fulfill the requirements below:
 
