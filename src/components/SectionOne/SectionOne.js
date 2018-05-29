@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Grid } from 'material-ui';
+import { Button, Grid } from '@material-ui/core';
 import { ArrowUpward, ArrowDownward } from '@material-ui/icons'
 // THIS COMPONENT IS OUR INTERFACE FOR SPEED
 // YOU SHOULD DISPLAY THE CURRENT SPEED

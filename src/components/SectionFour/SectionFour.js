@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { withStyles } from 'material-ui/styles';
-import { Grid, AutoComplete } from 'material-ui';
-import Stepper, { Step, StepLabel, StepContent } from 'material-ui/Stepper';
-import Button from 'material-ui/Button';
-import Paper from 'material-ui/Paper';
-import Typography from 'material-ui/Typography';
+import { withStyles } from '@material-ui/core/styles';
+import { Grid, AutoComplete } from '@material-ui/core';
+import {Stepper, Step, StepLabel, StepContent } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
   root: {

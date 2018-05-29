@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Grid } from 'material-ui';
-import Input, { InputLabel } from 'material-ui/Input';
+import { Button, Grid } from '@material-ui/core';
+import { Input, InputLabel } from '@material-ui/core';
 import {CheckBox} from '@material-ui/icons'
 // THIS COMPONENT IS OUR INTERFACE FOR PASSENGER CHECK IN
 // YOU SHOULD DISPLAY THE CURRENT PASSENGERS
