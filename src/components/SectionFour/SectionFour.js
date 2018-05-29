@@ -75,7 +75,7 @@ function getStepContent(step) {
       return (
         `Your Seventh week we dealt with Redux!
         connect() and Currying! dispatch, mapStateToProps!
-        Actions, Reducers, Sagas, Requests!`
+        Actions, Reducers, Store, Axios!`
       );
     default:
       return 'Unknown step';
