@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import SpeedControl from '../SpeedControl/SpeedControl';
 import Passengers from '../Passengers/Passengers';
 import Dashboard from '../Dashboard/Dashboard';
-import SectionFour from '../SectionFour/SectionFour';
 
 
 class App extends Component {
