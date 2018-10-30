@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 // components
 import SpeedControl from '../SpeedControl/SpeedControl';
-import SectionTwo from '../SectionTwo/SectionTwo';
+import Passengers from '../Passengers/Passengers';
 import SectionThree from '../SectionThree/SectionThree';
 import SectionFour from '../SectionFour/SectionFour';
 
@@ -23,7 +23,7 @@ class App extends Component {
               <nav>
                 <ul>
                 <li><Link to="/">Speed Control</Link></li>
-                <li><Link to="/2">Section Two</Link></li>
+                <li><Link to="/2">Passengers</Link></li>
                 <li><Link to="/3">Section Three</Link></li>
               </ul>
               </nav>
@@ -31,7 +31,7 @@ class App extends Component {
 
             <div className="content-container">
               <Route exact path="/" component={SpeedControl} />
-              <Route path="/2" component={SectionTwo} />
+              <Route path="/2" component={Passengers} />
               <Route path="/3" component={SectionThree} />
               <Route path="/4" component={SectionFour} />
             </div>
