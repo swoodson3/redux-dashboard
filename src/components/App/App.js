@@ -5,10 +5,10 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 // components
-import SectionOne from './components/SectionOne/SectionOne';
-import SectionTwo from './components/SectionTwo/SectionTwo';
-import SectionThree from './components/SectionThree/SectionThree';
-import SectionFour from './components/SectionFour/SectionFour';
+import SectionOne from '../SectionOne/SectionOne';
+import SectionTwo from '../SectionTwo/SectionTwo';
+import SectionThree from '../SectionThree/SectionThree';
+import SectionFour from '../SectionFour/SectionFour';
 
 
 class App extends Component {
