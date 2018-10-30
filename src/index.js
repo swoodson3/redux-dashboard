@@ -8,6 +8,8 @@ import logger from 'redux-logger';
 import reducers from './redux/reducers/buttonsReducer'
 import registerServiceWorker from './registerServiceWorker';
 
+// put your reducers in /redux/reducers/reducers.js
+
 const storeInstance = createStore(
   reducers,
   applyMiddleware(logger)
