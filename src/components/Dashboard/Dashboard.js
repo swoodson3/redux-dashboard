@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // YOU SHOULD DISPLAY THE CURRENT SPEED FROM SECTION ONE
 // YOU SHOULD DISPLAY THE COUNT OF PEOPLE CURRENTLY ON BOARD
 
-class SectionThree extends Component {
+class Dashboard extends Component {
   render() {
     return (
       <div>
@@ -17,4 +17,4 @@ class SectionThree extends Component {
   }
 }
 
-export default SectionThree;
+export default Dashboard;

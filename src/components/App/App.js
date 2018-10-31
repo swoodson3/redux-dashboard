@@ -5,10 +5,9 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 // components
-import SectionOne from './components/SectionOne/SectionOne';
-import SectionTwo from './components/SectionTwo/SectionTwo';
-import SectionThree from './components/SectionThree/SectionThree';
-import SectionFour from './components/SectionFour/SectionFour';
+import SpeedControl from '../SpeedControl/SpeedControl';
+import Passengers from '../Passengers/Passengers';
+import Dashboard from '../Dashboard/Dashboard';
 
 
 class App extends Component {
@@ -22,18 +21,17 @@ class App extends Component {
               <h1 className="App-title">Welcome to React Redux</h1>
               <nav>
                 <ul>
-                <li><Link to="/">Section One</Link></li>
-                <li><Link to="/2">Section Two</Link></li>
-                <li><Link to="/3">Section Three</Link></li>
+                <li><Link to="/">Speed Control</Link></li>
+                <li><Link to="/passengers">Passengers</Link></li>
+                <li><Link to="/dashboard">Dashboard</Link></li>
               </ul>
               </nav>
             </header>
 
             <div className="content-container">
-              <Route exact path="/" component={SectionOne} />
-              <Route path="/2" component={SectionTwo} />
-              <Route path="/3" component={SectionThree} />
-              <Route path="/4" component={SectionFour} />
+              <Route exact path="/" component={SpeedControl} />
+              <Route path="/passengers" component={Passengers} />
+              <Route path="/dashboard" component={Dashboard} />
             </div>
 
           </div>

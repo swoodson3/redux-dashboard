@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // YOU SHOULD DISPLAY THE CURRENT PASSENGERS
 // INPUT SHOULD COLLECT INFO, BUTTON SHOULD ADD THEM TO THE LIST
 
-class SectionTwo extends Component {
+class Passengers extends Component {
   render() {
     return (
       <div>
@@ -19,4 +19,4 @@ class SectionTwo extends Component {
   }
 }
 
-export default SectionTwo;
+export default Passengers;

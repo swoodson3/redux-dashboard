@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // YOU SHOULD DISPLAY THE CURRENT SPEED
 // BUTTONS SHOULD INCREASE OR DECREASE SPEED, RESPECTIVELY
 
-class SectionOne extends Component {
+class SpeedControl extends Component {
   render() {
     return (
       <div>
@@ -17,4 +17,4 @@ class SectionOne extends Component {
   }
 }
 
-export default SectionOne;
+export default SpeedControl;
