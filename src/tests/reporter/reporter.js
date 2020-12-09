@@ -5,6 +5,7 @@
  */
 const fs = require('fs');
 const reportHtml = require('./report-html');
+const reportMd = require('./report-md');
 const reportGithubActions = require('./report-github-actions');
 
 /**
@@ -118,6 +119,11 @@ class Reporter {
     // and write it to a file
     let html = reportHtml(ctx);
     fs.writeFileSync('testResults.html', html, 'utf8');
+
+    // Generate a Markdown report
+    // and write it to a file
+    let md = reportMd(ctx);
+    fs.writeFileSync('testResults.md', md, 'utf8');
   }
 }
 
