@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 // THIS COMPONENT IS OUR INTERFACE FOR PASSENGER CHECK IN
 // YOU SHOULD DISPLAY THE CURRENT PASSENGERS
 // INPUT SHOULD COLLECT INFO, BUTTON SHOULD ADD THEM TO THE LIST
 
-class Passengers extends Component {
-  render() {
+function Passengers() {
+  
     return (
       <div>
         <h2>Passengers</h2>
@@ -16,7 +16,7 @@ class Passengers extends Component {
       
       </div>
     )
-  }
+  
 }
 
 export default Passengers;
