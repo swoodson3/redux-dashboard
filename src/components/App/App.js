@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import reduxLogo from './redux.svg';
 import './App.css';
@@ -10,8 +10,8 @@ import Passengers from '../Passengers/Passengers';
 import Dashboard from '../Dashboard/Dashboard';
 
 
-class App extends Component {
-  render() {
+function App() {
+  
     return (
       <Router>
           <div className="App">
@@ -19,12 +19,13 @@ class App extends Component {
               <img src={logo} className="App-logo" alt="logo" />
               <img src={reduxLogo} className="App-logo" alt="logo" />
               <h1 className="App-title">Welcome to React Redux</h1>
+
               <nav>
                 <ul>
-                <li><Link to="/">Speed Control</Link></li>
-                <li><Link to="/passengers">Passengers</Link></li>
-                <li><Link to="/dashboard">Dashboard</Link></li>
-              </ul>
+                  <li><Link to="/">Speed Control</Link></li>
+                  <li><Link to="/passengers">Passengers</Link></li>
+                  <li><Link to="/dashboard">Dashboard</Link></li>
+                </ul>
               </nav>
             </header>
 
@@ -37,7 +38,7 @@ class App extends Component {
           </div>
       </Router>
     );
-  }
+
 }
 
 export default App;
