@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App/App';
 import { createStore, applyMiddleware } from 'redux'
@@ -15,6 +15,13 @@ const storeInstance = createStore(
   applyMiddleware(logger)
 )
 
-ReactDOM.render(<Provider store={storeInstance}><App /></Provider>, document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Provider store={storeInstance}>
+      <App />
+    </Provider>
+  </React.StrictMode>
+);
 
 export {storeInstance};
