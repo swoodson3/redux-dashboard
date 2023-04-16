@@ -23,3 +23,5 @@ This component is our interface for checking in Passengers. Type in the name. On
 This component is our Dashboard. It should display our current speed and the number of passengers currently on board. 
 
 ![Solution Demo](solution-demo.gif)
+
+Test
